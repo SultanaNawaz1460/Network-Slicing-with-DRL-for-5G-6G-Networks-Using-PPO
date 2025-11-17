@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+.env
+
+# Jupyter (even though you're not using it)
+.ipynb_checkpoints/
+
+# Results - don't commit large files
+saved_models/*.pth
+results/logs/*.log
+*.h5
+*.pkl
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Conda
+.conda/
